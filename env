@@ -1,0 +1,32 @@
+# Required: create a bot with Telegram's BotFather and paste its token here.
+TELEGRAM_BOT_TOKEN=8825845019:AAGmwu6TnCyFdMqlMeAxP2rVu_ihg-l6RBc
+
+# Restrict the bot to your own Telegram numeric user ID(s), comma-separated.
+# Find your ID using a trusted Telegram ID bot, then put it here.
+ALLOWED_TELEGRAM_IDS=7312546684
+
+# Keep the browser headless. The context uses an Android mobile device profile.
+HEADLESS=true
+
+# Site URLs
+BASE_URL=https://www.flipkart.com
+WISHLIST_URL=https://www.flipkart.com/wishlist
+# This was supplied as the cart URL. Change it if your account's cart is on Gulok instead.
+CART_URL=https://www.flipkart.com/viewcart
+CHALLENGE_URL=https://www.flipkart.com/loyalty/challenges?challengeId=CH-D0CDF9&pageUID=16386328RULES
+
+# Optional: login selectors. Replace these with verified selectors from your own site.
+LOGIN_URL=https://www.gulok.com
+LOGIN_OPEN_SELECTOR=
+LOGIN_IDENTIFIER_SELECTOR=
+LOGIN_SEND_OTP_SELECTOR=
+LOGIN_OTP_INPUT_SELECTOR=
+LOGIN_VERIFY_OTP_SELECTOR=
+
+# Optional: wishlist removal selectors. These were not supplied, so leave blank until known.
+WISHLIST_ITEM_SELECTOR=
+WISHLIST_REMOVE_SELECTOR=
+
+# Safety: do not perform purchase/checkout/payment actions.
+ACTION_TIMEOUT_MS=12000
+NAVIGATION_TIMEOUT_MS=30000
